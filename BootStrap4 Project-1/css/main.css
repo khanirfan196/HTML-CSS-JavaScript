@@ -1,0 +1,179 @@
+
+
+/************ Styling for Header Section **************/
+
+#header-title {
+  margin-top:10px;
+}
+
+#header-content {
+  background: rgb(101,19,19);
+  background: linear-gradient(135deg, rgba(101,19,19,1) 26%, rgba(59,59,63,1) 76%);
+  color:white;
+}
+
+
+
+
+#search-form {
+    padding-top:15px;
+    padding-right:5px;
+    margin:5px;
+    width:100%;
+
+} 
+
+/****************************************************************************/
+
+
+#links1 {
+    float: right;
+    padding:5px;
+    margin:10px;
+}
+
+/* Styling for Footer Section*/
+#footer-section1{
+    background-color: #F2F4F4; /*#AEB6BF*/
+    color:white;
+    margin:0px;
+}
+
+#footer-section1, ul {
+    list-style-type: none;
+  }
+
+#footer-section2, li {
+    padding:5px;
+
+}
+
+#footer-section2 {
+  padding-top:10px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  background-color: #CCD1D1;
+  text-align: center;
+}
+
+.fa {
+padding: 20px;
+font-size: 15px;
+width: 20px;
+height:20px;
+text-align: center;
+text-decoration: none;
+margin: 2px 2px;
+border-radius: 10px;
+background:#566573;
+color:white;
+}
+
+.fa:hover {
+  background-color: blue;
+  color:white;
+  text-decoration: none;
+}
+
+/*********************************************************************************************************/
+
+
+
+
+
+#main-content {
+    padding:10px;
+    margin:5px;
+}
+
+
+#side-content1 {
+    padding-top:10px;
+    margin:10px;
+}
+
+
+
+#login-btn {
+    background-color:none;
+    padding:5px 10px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#logout-btn:hover {
+  background-color:red;
+  color: white;
+}
+
+#logout-btn {
+  background-color:none;
+  padding:5px 10px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+
+}
+
+#login-btn:hover {
+background-color:green;
+color: white;
+}
+
+
+#reg-btn {
+    background-color:none;
+    padding:5px 10px;
+    color:#2E86C1;
+    border: 1px solid #2E86C1;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#reg-btn:hover {
+  background-color: #2E86C1;
+  color: white;
+}
+
+#contact-div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#profile-pic{
+  border-radius: 3px;
+  background-color:#EBF5FB;
+  padding: 20px;
+}
+
+
+#submit-btn {
+  background-color: none;
+  color:blue;
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+#submit-btn:hover {
+  background-color: blue;
+  color:white;
+
+}
